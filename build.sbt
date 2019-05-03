@@ -1,11 +1,12 @@
 sbtPlugin := true
 
 name := "sbt-s3-resolver"
-organization := "ohnosequences"
+organization := "com.miodx.common"
+version := "0.15.0"
 description := "SBT plugin which provides Amazon S3 bucket resolvers"
 
 javaVersion := "1.7"
-scalaVersion := "2.10.6"
+scalaVersion := "2.10.7"
 
 bucketSuffix := "era7.com"
 
