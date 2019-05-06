@@ -1,7 +1,7 @@
 sbtPlugin := true
 
 name         := "sbt-s3-resolver"
-organization := "com.miodx.common"
+organization := "com.miodx.sbt.plugins"
 version      := "0.19.0"
 description  := "SBT plugin which provides Amazon S3 bucket resolvers"
 //bucketSuffix := "era7.com"
@@ -11,7 +11,7 @@ scalaVersion := "2.12.8"
 sbtVersion   := "1.2.8"
 
 resolvers += Resolver.jcenterRepo
-libraryDependencies += "com.miodx.common" %% "ivy-s3-resolver" % "0.13.0"
+libraryDependencies += "com.miodx.sbt.plugins" %% "ivy-s3-resolver" % "0.13.0"
 
 //bintrayReleaseOnPublish := !isSnapshot.value
 //bintrayOrganization     := Some(organization.value)
