@@ -1,7 +1,7 @@
 sbtPlugin := true
 
 name         := "sbt-s3-resolver"
-organization := "com.miodx.common"
+organization := "com.miodx.sbt.plugins"
 version      := "0.19.0"
 description  := "SBT plugin which provides Amazon S3 bucket resolvers"
 //bucketSuffix := "era7.com"
