@@ -11,7 +11,7 @@ scalaVersion := "2.12.8"
 sbtVersion   := "1.2.8"
 
 resolvers += Resolver.jcenterRepo
-libraryDependencies += "com.miodx.common" %% "ivy-s3-resolver" % "0.13.0"
+libraryDependencies += "com.miodx.sbt.plugins" %% "ivy-s3-resolver" % "0.13.0"
 
 //bintrayReleaseOnPublish := !isSnapshot.value
 //bintrayOrganization     := Some(organization.value)
